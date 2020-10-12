@@ -7,4 +7,5 @@
 **4.** Create new branch in site, and i add branch on my pc - "git pull". Git checkout newbranch to change branch
 ***
 **5.** Changes not occur 
-
+***
+**7.** In my opinion, there was a conflict in these two files because two identical tapes were occupied. Solved this problem with the git merge main command in the new-branch.
