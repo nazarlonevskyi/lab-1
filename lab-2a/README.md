@@ -26,8 +26,4 @@ iii. I add function TRUEFALSE
 ***
 iv. I create new function which can run with error
 ***
-|Lab   |Link          |
-|------|:------------:|
-|1.|`https://github.com/nazarlonevskyi/mylabs/tree/main/lab-1`|
-|2a.|`https://github.com/nazarlonevskyi/mylabs/tree/main/lab-2a`|
-***
+
