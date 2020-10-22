@@ -20,9 +20,11 @@ except (ValueError, ZeroDivisionError):
 finally:
     print("THE END).")
 
+
 with open("README.md", "r") as f:
 	for line in f :
 		print(line)
+		
 
 full_name = lambda first, last: f'Full name{first} {last}'
 full_name('Nazar','Lonevskyi')
