@@ -8,7 +8,7 @@ print(float('+5.67'))
 
 B = True
 print("So B=True" if B else " So B=False")
-B = False
+B = Falsenaz
 print("So B=True" if B else " So B=False")
 
 try:
