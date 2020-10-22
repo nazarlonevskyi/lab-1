@@ -1,7 +1,7 @@
 #myabs
 
 ***
-2. Create file basicfile.py to test simle examples.
+2. I create file basicfile.py to test simle examples.
 ***
 i. This program execute that we are in main file and data and time settings of linux.
 ***
@@ -23,3 +23,11 @@ ii.d. I using command python3.8 . --logs get this message : 2020-10-19 14:08:51,
 2020-10-19 14:08:51,837 root ERROR: Це повідомлення про помилку
 ***
 iii. I add function TRUEFALSE
+***
+iv. I create new function which can run with error
+***
+|Lab   |Link          |
+|------|:------------:|
+|1.|`https://github.com/nazarlonevskyi/mylabs/tree/main/lab-1`|
+|2a.|`https://github.com/nazarlonevskyi/mylabs/tree/main/lab-2a`|
+***
