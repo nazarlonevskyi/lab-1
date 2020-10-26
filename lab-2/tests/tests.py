@@ -1,6 +1,5 @@
 import unittest
-from app import main, my_good_fun
-
+from app import main, home_work
 
 class TestClass(unittest.TestCase):
     def setUp(self):
@@ -21,9 +20,6 @@ class TestClass(unittest.TestCase):
         with self.assertRaises(Exception):
             main(self.ip_url)
 
-    def test_home_work(self):
+    def test_homework(self):
         # Ваш захист
-        self.assertTrue(True)
-
-    def test_my_fun(self):
-        self.assertEqual(my_good_fun(), "Success")
+        self.assertTrue(self.date_url)
