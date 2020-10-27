@@ -23,3 +23,6 @@
 ***
 **10.** Write my result to results.txt `python3.8 app.py > results.txt`
 to append i use `python3.8 app.py >> results.txt`
+***
+**13.** Commited changes into Make file
+***
