@@ -7,4 +7,8 @@
 ***
 **5** Create template app
 ***
-**6** Create file main/urls.py
+**6** Create file `main/urls.py`
+***
+**7** Create 2 types pages
+***
+**8** Site work fine main page appear, in another window start `monitoring.py` program, logs record to `server.logs`

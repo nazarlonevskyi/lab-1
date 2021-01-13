@@ -1,0 +1,16 @@
+INFO 2021-01-13 08:24:56,221 root : Сервер доступний. Час на сервері: 2021-01-13T13:24:56.220424
+INFO 2021-01-13 08:24:56,222 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2021-01-13 08:24:56,222 root : Відповідь сервера місти наступні поля:
+INFO 2021-01-13 08:24:56,222 root : Ключ: servername, Значення: lab server
+INFO 2021-01-13 08:24:56,222 root : Ключ: random, Значення: 17
+INFO 2021-01-13 08:24:56,222 root : Ключ: datetime, Значення: 2021-01-13T13:24:56.220424
+INFO 2021-01-13 08:24:56,222 root : Ключ: server_url, Значення: http://localhost:8000/health/
+INFO 2021-01-13 08:24:56,222 root : Ключ: server_iinfo, Значення: {'system': 'posix', 'srv_pid': 6498}
+INFO 2021-01-13 08:24:56,222 root : Ключ: client_info, Значення: {'user agent': 'python-requests/2.22.0', 'remote addr': '127.0.0.1', 'remote host': ''}
+ERROR 2021-01-13 08:25:56,245 root : Unable to conect to the server: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f68882bd220>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2021-01-13 08:26:56,303 root : Unable to conect to the server: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f68882bd9d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2021-01-13 08:27:56,366 root : Unable to conect to the server: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f68882ca1c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2021-01-13 08:28:56,429 root : Unable to conect to the server: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f68882ca970>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2021-01-13 08:29:56,481 root : Unable to conect to the server: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f68882d3160>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2021-01-13 08:30:56,543 root : Unable to conect to the server: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f68882ca760>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2021-01-13 08:31:56,606 root : Unable to conect to the server: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f68882ca250>: Failed to establish a new connection: [Errno 111] Connection refused'))
