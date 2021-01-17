@@ -1,0 +1,24 @@
+version: '3.8'
+services: 
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: nazarlonevskyi/lab-5:django-travis
+    container_name: django-travis
+    networks: 
+      - public
+    ports: 
+      - 80:8000
+  monitor:
+    build:
+      context: .
+      dockerfile: Dockerfile.site
+    image: nazarlonevskyi/lab-5:monitor-travis
+    container_name: django-monitor
+    networks: 
+      - public
+
+networks: 
+  public:
+    driver: bridge
