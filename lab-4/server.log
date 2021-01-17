@@ -1,0 +1,88 @@
+INFO 2021-01-13 08:24:56,221 root : Сервер доступний. Час на сервері: 2021-01-13T13:24:56.220424
+INFO 2021-01-13 08:24:56,222 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2021-01-13 08:24:56,222 root : Відповідь сервера місти наступні поля:
+INFO 2021-01-13 08:24:56,222 root : Ключ: servername, Значення: lab server
+INFO 2021-01-13 08:24:56,222 root : Ключ: random, Значення: 17
+INFO 2021-01-13 08:24:56,222 root : Ключ: datetime, Значення: 2021-01-13T13:24:56.220424
+INFO 2021-01-13 08:24:56,222 root : Ключ: server_url, Значення: http://localhost:8000/health/
+INFO 2021-01-13 08:24:56,222 root : Ключ: server_iinfo, Значення: {'system': 'posix', 'srv_pid': 6498}
+INFO 2021-01-13 08:24:56,222 root : Ключ: client_info, Значення: {'user agent': 'python-requests/2.22.0', 'remote addr': '127.0.0.1', 'remote host': ''}
+ERROR 2021-01-13 08:25:56,245 root : Unable to conect to the server: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f68882bd220>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2021-01-13 08:26:56,303 root : Unable to conect to the server: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f68882bd9d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2021-01-13 08:27:56,366 root : Unable to conect to the server: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f68882ca1c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2021-01-13 08:28:56,429 root : Unable to conect to the server: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f68882ca970>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2021-01-13 08:29:56,481 root : Unable to conect to the server: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f68882d3160>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2021-01-13 08:30:56,543 root : Unable to conect to the server: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f68882ca760>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2021-01-13 08:31:56,606 root : Unable to conect to the server: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f68882ca250>: Failed to establish a new connection: [Errno 111] Connection refused'))
+INFO 2021-01-17 18:26:00,986 root : Сервер доступний. Час на сервері: 2021-01-17T18:26:00.985313
+INFO 2021-01-17 18:26:00,987 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2021-01-17 18:26:00,987 root : Відповідь сервера місти наступні поля:
+INFO 2021-01-17 18:26:00,987 root : Ключ: servername, Значення: lab server
+INFO 2021-01-17 18:26:00,987 root : Ключ: random, Значення: 210
+INFO 2021-01-17 18:26:00,987 root : Ключ: datetime, Значення: 2021-01-17T18:26:00.985313
+INFO 2021-01-17 18:26:00,987 root : Ключ: server_url, Значення: http://localhost:8000/health/
+INFO 2021-01-17 18:26:00,987 root : Ключ: server_iinfo, Значення: {'system': 'posix', 'srv_pid': 12}
+INFO 2021-01-17 18:26:00,987 root : Ключ: client_info, Значення: {'user agent': 'python-requests/2.25.1', 'remote addr': '127.0.0.1', 'remote host': ''}
+INFO 2021-01-17 18:27:01,057 root : Сервер доступний. Час на сервері: 2021-01-17T18:27:01.055971
+INFO 2021-01-17 18:27:01,057 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2021-01-17 18:27:01,057 root : Відповідь сервера місти наступні поля:
+INFO 2021-01-17 18:27:01,057 root : Ключ: servername, Значення: lab server
+INFO 2021-01-17 18:27:01,057 root : Ключ: random, Значення: 144
+INFO 2021-01-17 18:27:01,057 root : Ключ: datetime, Значення: 2021-01-17T18:27:01.055971
+INFO 2021-01-17 18:27:01,057 root : Ключ: server_url, Значення: http://localhost:8000/health/
+INFO 2021-01-17 18:27:01,058 root : Ключ: server_iinfo, Значення: {'system': 'posix', 'srv_pid': 12}
+INFO 2021-01-17 18:27:01,058 root : Ключ: client_info, Значення: {'user agent': 'python-requests/2.25.1', 'remote addr': '127.0.0.1', 'remote host': ''}
+INFO 2021-01-17 18:28:01,130 root : Сервер доступний. Час на сервері: 2021-01-17T18:28:01.127990
+INFO 2021-01-17 18:28:01,130 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2021-01-17 18:28:01,130 root : Відповідь сервера місти наступні поля:
+INFO 2021-01-17 18:28:01,130 root : Ключ: servername, Значення: lab server
+INFO 2021-01-17 18:28:01,130 root : Ключ: random, Значення: 153
+INFO 2021-01-17 18:28:01,130 root : Ключ: datetime, Значення: 2021-01-17T18:28:01.127990
+INFO 2021-01-17 18:28:01,130 root : Ключ: server_url, Значення: http://localhost:8000/health/
+INFO 2021-01-17 18:28:01,130 root : Ключ: server_iinfo, Значення: {'system': 'posix', 'srv_pid': 12}
+INFO 2021-01-17 18:28:01,131 root : Ключ: client_info, Значення: {'user agent': 'python-requests/2.25.1', 'remote addr': '127.0.0.1', 'remote host': ''}
+INFO 2021-01-17 18:29:01,186 root : Сервер доступний. Час на сервері: 2021-01-17T18:29:01.184570
+INFO 2021-01-17 18:29:01,186 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2021-01-17 18:29:01,186 root : Відповідь сервера місти наступні поля:
+INFO 2021-01-17 18:29:01,186 root : Ключ: servername, Значення: lab server
+INFO 2021-01-17 18:29:01,186 root : Ключ: random, Значення: 6
+INFO 2021-01-17 18:29:01,186 root : Ключ: datetime, Значення: 2021-01-17T18:29:01.184570
+INFO 2021-01-17 18:29:01,187 root : Ключ: server_url, Значення: http://localhost:8000/health/
+INFO 2021-01-17 18:29:01,187 root : Ключ: server_iinfo, Значення: {'system': 'posix', 'srv_pid': 12}
+INFO 2021-01-17 18:29:01,187 root : Ключ: client_info, Значення: {'user agent': 'python-requests/2.25.1', 'remote addr': '127.0.0.1', 'remote host': ''}
+INFO 2021-01-17 18:30:01,262 root : Сервер доступний. Час на сервері: 2021-01-17T18:30:01.258838
+INFO 2021-01-17 18:30:01,262 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2021-01-17 18:30:01,262 root : Відповідь сервера місти наступні поля:
+INFO 2021-01-17 18:30:01,262 root : Ключ: servername, Значення: lab server
+INFO 2021-01-17 18:30:01,262 root : Ключ: random, Значення: 13
+INFO 2021-01-17 18:30:01,262 root : Ключ: datetime, Значення: 2021-01-17T18:30:01.258838
+INFO 2021-01-17 18:30:01,263 root : Ключ: server_url, Значення: http://localhost:8000/health/
+INFO 2021-01-17 18:30:01,263 root : Ключ: server_iinfo, Значення: {'system': 'posix', 'srv_pid': 12}
+INFO 2021-01-17 18:30:01,263 root : Ключ: client_info, Значення: {'user agent': 'python-requests/2.25.1', 'remote addr': '127.0.0.1', 'remote host': ''}
+INFO 2021-01-17 18:31:01,331 root : Сервер доступний. Час на сервері: 2021-01-17T18:31:01.329715
+INFO 2021-01-17 18:31:01,332 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2021-01-17 18:31:01,332 root : Відповідь сервера місти наступні поля:
+INFO 2021-01-17 18:31:01,332 root : Ключ: servername, Значення: lab server
+INFO 2021-01-17 18:31:01,332 root : Ключ: random, Значення: 245
+INFO 2021-01-17 18:31:01,332 root : Ключ: datetime, Значення: 2021-01-17T18:31:01.329715
+INFO 2021-01-17 18:31:01,332 root : Ключ: server_url, Значення: http://localhost:8000/health/
+INFO 2021-01-17 18:31:01,332 root : Ключ: server_iinfo, Значення: {'system': 'posix', 'srv_pid': 12}
+INFO 2021-01-17 18:31:01,332 root : Ключ: client_info, Значення: {'user agent': 'python-requests/2.25.1', 'remote addr': '127.0.0.1', 'remote host': ''}
+INFO 2021-01-17 18:32:01,409 root : Сервер доступний. Час на сервері: 2021-01-17T18:32:01.405607
+INFO 2021-01-17 18:32:01,409 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2021-01-17 18:32:01,409 root : Відповідь сервера місти наступні поля:
+INFO 2021-01-17 18:32:01,409 root : Ключ: servername, Значення: lab server
+INFO 2021-01-17 18:32:01,409 root : Ключ: random, Значення: 225
+INFO 2021-01-17 18:32:01,409 root : Ключ: datetime, Значення: 2021-01-17T18:32:01.405607
+INFO 2021-01-17 18:32:01,409 root : Ключ: server_url, Значення: http://localhost:8000/health/
+INFO 2021-01-17 18:32:01,409 root : Ключ: server_iinfo, Значення: {'system': 'posix', 'srv_pid': 12}
+INFO 2021-01-17 18:32:01,409 root : Ключ: client_info, Значення: {'user agent': 'python-requests/2.25.1', 'remote addr': '127.0.0.1', 'remote host': ''}
+INFO 2021-01-17 18:33:01,481 root : Сервер доступний. Час на сервері: 2021-01-17T18:33:01.479519
+INFO 2021-01-17 18:33:01,482 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2021-01-17 18:33:01,482 root : Відповідь сервера місти наступні поля:
+INFO 2021-01-17 18:33:01,482 root : Ключ: servername, Значення: lab server
+INFO 2021-01-17 18:33:01,482 root : Ключ: random, Значення: 228
+INFO 2021-01-17 18:33:01,482 root : Ключ: datetime, Значення: 2021-01-17T18:33:01.479519
+INFO 2021-01-17 18:33:01,482 root : Ключ: server_url, Значення: http://localhost:8000/health/
+INFO 2021-01-17 18:33:01,482 root : Ключ: server_iinfo, Значення: {'system': 'posix', 'srv_pid': 12}
+INFO 2021-01-17 18:33:01,483 root : Ключ: client_info, Значення: {'user agent': 'python-requests/2.25.1', 'remote addr': '127.0.0.1', 'remote host': ''}
