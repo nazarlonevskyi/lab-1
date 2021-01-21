@@ -1,6 +1,7 @@
 import unittest
 from app import main, home_work
 
+
 class TestClass(unittest.TestCase):
     def setUp(self):
         # Дана функція налаштовує початкові агрументи визначені лише для класу
@@ -20,6 +21,13 @@ class TestClass(unittest.TestCase):
         with self.assertRaises(Exception):
             main(self.ip_url)
 
-    def test_homework(self):
+    def test_home_work(self):
         # Ваш захист
-        self.assertTrue(self.date_url)
+        self.assertEqual(home_work("12:12:12 AM"), "Day")
+        self.assertEqual(home_work("12:12:12 PM"), "Night")
+        
+        try: 
+            home_work("example non time text")
+            self.assertTrue(False)
+        except RuntimeError:
+            self.assertTrue(True)
