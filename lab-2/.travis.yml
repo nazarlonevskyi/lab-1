@@ -1,0 +1,16 @@
+language: python
+python:
+  - "3.8"
+jobs:
+  include:
+    - stage: "Build Lab 2."
+      name: "Run tests for Lab 2"
+      python: 3.8
+      install:
+        - cd ./lab-2/
+      script: 
+        - make install
+      script: make test-cli
+    - stage: "Build Lab 3."
+      name: "Run Djungo Server and test it accessibility. Fail to run and test"
+      python: 3.8
