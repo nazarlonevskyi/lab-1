@@ -1,0 +1,39 @@
+language: python
+
+python:
+  - "3.8"
+
+jobs:
+  include:
+    - stage: "Build Lab 2."
+      name: "Run tests for Lab 2"
+      python: 3.8
+      install:
+        - cd ./lab-2/
+        - make install
+      script: make test-cli
+    - stage: "Build Lab 4."
+      name: "Build Docker images & Home task"
+      services:
+        - docker
+      install:
+        - cd ./lab-4/
+      script:
+        - docker build -t nazarlonevskyi/mylabs:django-travis .
+        - docker build -t nazarlonevskyi/mylabs:monitor-travis --file Dockerfile.site . 
+        - docker images
+    - stage: "Build Lab 5."
+      name: "Build and run Docker images via make"
+      services:
+        - docker
+      install:
+        - cd ./lab-5/
+        - make app
+        - make tests
+      script:
+        - make run
+        - make test-app
+
+branches:
+  only:
+    - main
